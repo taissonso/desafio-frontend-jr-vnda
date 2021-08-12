@@ -99,6 +99,7 @@ body {
 }
 .navbar .iconmenu {
   display: none;
+  cursor: pointer;
 }
 .navbar .arrowmenu {
   content: url(../assets/images/arrowdown.png);
@@ -1125,7 +1126,7 @@ body {
   }
 
   .footer-store {
-    height: 80vh;
+    height: 85vh;
     flex-direction: column;
   }
   .footer-store .mainfooter {

@@ -2,7 +2,7 @@
 
 Você pode conferir o resultado desse projeto aqui.
 
-##https://taissonso.github.io/desafio-frontend-jr-vnda/
+#https://taissonso.github.io/desafio-frontend-jr-vnda/
 
 Criada a página do desafio frontend jr vnda. 
 

@@ -118,6 +118,7 @@ body {
 
   .iconmenu {
     display: none;
+    cursor: pointer;
   }
 
   .arrowmenu {
@@ -1255,8 +1256,8 @@ body {
     }
   }
 
-  .footer-store {
-    height: 80vh;
+  .footer-store {  
+    height: 85vh;
     flex-direction: column;
 
     .mainfooter {

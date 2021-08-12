@@ -41,7 +41,8 @@ gulp.task('fonts', function () {
 
 gulp.task('images', function () {
     return gulp.src(['./src/assets/images/*.png','./src/assets/images/*.jpg', 
-                    './src/assets/images/*.JPG'])
+                    './src/assets/images/*.JPG',
+                    './src/assets/images/*.ico'])
       .pipe(gulp.dest('./dist/assets/images/'));
 });
 
