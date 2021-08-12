@@ -12,7 +12,7 @@ $('.iconmenu').click(() => {
         $('.container-header').addClass('openmenucontainer');
         $('.navbar').addClass('openmenu');
         $('.subnav').hide();
-        $('.logotipo').hide();
+        $('.linklogotipo').hide();
     } else {
         closeMenu();
     }
@@ -27,7 +27,8 @@ const closeMenu = () => {
     $('.container-header').removeClass('openmenucontainer');
     $('.navbar').removeClass('openmenu');
     $('.subnav').show();
-    $('.logotipo').show();
+    // $('.logotipo').show();
+    $('.linklogotipo').show();
     $(".container-header").css("style", "");
     $('.menu').find('ul').removeClass('activesubmenu')
 }

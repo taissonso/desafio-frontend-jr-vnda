@@ -59,7 +59,6 @@ body {
 
 /* Menu*/
 .container-header {
-  background-color: #1f1950;
   background: rgba(28, 21, 85, 0.24);
   height: 100px;
   width: 100vw;
@@ -77,10 +76,16 @@ body {
   color: #000000 !important;
 }
 
+.linklogotipo {
+  height: 100%;
+  width: 80px;
+  margin-left: 5%;
+}
+
 .logotipo {
   height: auto;
-  width: 6%;
-  margin-left: 5%;
+  width: 100%;
+  margin-top: 12%;
 }
 
 .navbar {
@@ -134,7 +139,6 @@ body {
 }
 .navbar .menu .item:hover .submenu > .subitem {
   display: block;
-  background-color: red;
   min-width: 300px;
   text-align: left;
 }
@@ -397,7 +401,6 @@ body {
 }
 
 .coffeeshop {
-  background-color: lime;
   height: 50vh;
   margin-bottom: 10vh;
 }
@@ -521,7 +524,6 @@ body {
 }
 
 .slider {
-  background: palegreen;
   height: 50%;
   width: 40%;
 }
@@ -669,7 +671,7 @@ body {
 .imgsocialmedia .overlay .text {
   font-family: "Titles";
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -901,6 +903,7 @@ body {
     position: absolute;
     left: 0;
     margin-left: 10px;
+    margin-top: 4%;
   }
 
   .subnav {
@@ -918,6 +921,8 @@ body {
     background: #0059ff;
     font-size: 32px;
     vertical-align: middle;
+    color: #ffffff;
+    background-color: #000000;
   }
 
   .navbar .responsive {
@@ -1077,7 +1082,6 @@ body {
     padding-bottom: 40px;
   }
   .store-products .slider {
-    background: palegreen;
     height: 100vh;
     width: 100%;
   }

@@ -94,10 +94,17 @@ body {
   color: $preto  !important;
 }
 
+
+.linklogotipo {
+  height: 100%;
+  width: 80px;
+  margin-left: 5%;
+}
+
 .logotipo {
   height: auto;
-  width: 6%;
-  margin-left: 5%;
+  width: 100%;
+  margin-top: 12%;
 }
 
 .navbar {
@@ -745,7 +752,7 @@ body {
     .text {
       font-family: 'Titles';
       color: white;
-      font-size: 20px;
+      font-size: 18px;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -996,12 +1003,14 @@ body {
   .navbar .menu {
     display: none;
   }
+  
   .logotipo {
     width: 70px;
     order: 1;
     position: absolute;
     left: 0;
     margin-left: 10px;
+    margin-top: 4%;
   }
 
   .subnav {
@@ -1019,6 +1028,8 @@ body {
     background: $bg-sections;
     font-size: 32px;
     vertical-align: middle;
+    color: $branco;
+    background-color: $preto;
   }
 
   .navbar .responsive {
